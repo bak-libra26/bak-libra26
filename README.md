@@ -17,9 +17,7 @@ $ ls ~/projects/
 bak-libra26.github.io/  insights-korea/
 ```
 
-<img src="./assets/project-blog.svg" alt="bak-libra26.github.io" width="100%" />
-
-<img src="./assets/project-insightskorea.svg" alt="insights-korea" width="100%" />
+<img src="./assets/projects-card.svg" alt="Projects" width="100%" />
 
 ---
 
