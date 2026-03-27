@@ -20,7 +20,11 @@
   <img src="./assets/project-insightskorea.svg" alt="insights-korea" width="100%" />
 </a>
 
+---
+
 <img src="./assets/solvedac-card.svg" alt="Solved.ac Profile" width="100%" />
+
+---
 
 <img src="./assets/github-card.svg" alt="GitHub Stats" width="100%" />
 
