@@ -16,7 +16,7 @@
   <img src="./assets/project-blog.svg" alt="bak-libra26.github.io" width="100%" />
 </a>
 
-<a href="https://www.insights-korea.com">
+<a href="https://insightskorea.com">
   <img src="./assets/project-insightskorea.svg" alt="insights-korea" width="100%" />
 </a>
 

@@ -45,5 +45,5 @@
     <line x1="1" y1="232" x2="849" y2="232" stroke="#30363d" />
     <rect x="1" y="232" width="848" height="39" rx="0" fill="#161b22" />
     <rect x="1" y="267" width="848" height="4.5" rx="4" fill="#161b22" />
-    <text x="425" y="256" fill="#7aa2f7" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13" text-anchor="middle">Demo ↗  insights-korea.com</text>
+    <text x="425" y="256" fill="#7aa2f7" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13" text-anchor="middle">Demo ↗  insightskorea.com</text>
 </svg>

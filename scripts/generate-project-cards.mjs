@@ -26,7 +26,7 @@ const PROJECTS = [
       'GitHub Actions로 발행/미발행 요청 처리 + Discord Bot 알림 연동',
       'Supabase + next-intl 다국어(EN/KO/JA) 지원',
     ],
-    demo: 'https://www.insights-korea.com',
+    demo: 'https://insightskorea.com',
   },
 ];
 
