@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=7AA2F7&center=true&vCenter=true&width=500&lines=%24+whoami;bak-libra26+%E2%80%94+Fullstack+Developer" alt="$ whoami — bak-libra26 — Fullstack Developer" />
-</div>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=7AA2F7&vCenter=true&width=500&lines=%24+whoami;bak-libra26+%E2%80%94+Fullstack+Developer" alt="$ whoami — bak-libra26 — Fullstack Developer" />
 
 ```
  _           _         _ _ _                ___   __
