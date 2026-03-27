@@ -100,7 +100,7 @@ function generateSVG() {
   const W = 850;
   const titleBarH = 35;
   const contentStart = titleBarH + 15;
-  const projectGap = 20;
+  const projectGap = 40;
 
   // 프로젝트 블록 렌더링
   let y = contentStart;
