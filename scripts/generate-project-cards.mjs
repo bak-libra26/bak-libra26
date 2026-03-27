@@ -24,7 +24,7 @@ const PROJECTS = [
       'GitHub Actions로 발행/미발행 요청 처리 + Discord Bot 알림 연동',
       'Supabase + next-intl 다국어(EN/KO/JA) 지원',
     ],
-    badge: { text: 'private', color: T.dim },
+    badge: { text: 'active', color: T.green },
   },
 ];
 
@@ -40,7 +40,7 @@ function measureBadge(text) {
 function renderProject(project, yBase, animDelay) {
   // 프로젝트 이름 + 배지
   const nameY = yBase + 20;
-  const nameWidth = project.name.length * 8.5 + 30; // 대략적 이름 텍스트 폭
+  const nameWidth = project.name.length * 8.5 + 44; // 이름 텍스트 폭 + 여백
   const badgeW = project.badge.text.length * 7 + 14;
   const badgeSvg = `
       <rect x="${nameWidth}" y="${nameY - 13}" width="${badgeW}" height="18" rx="9" fill="none" stroke="${project.badge.color}" stroke-width="1" />
