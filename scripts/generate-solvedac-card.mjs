@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { writeFileSync, mkdirSync, existsSync } from 'node:fs';
+import { T, FONT, MONO, titleBar, cardFrame } from './card-theme.mjs';
 
 const HANDLE = 'bak_libra26';
 const OUTPUT = 'assets/solvedac-card.svg';
@@ -40,15 +41,6 @@ const TIERS = [
   { name: 'Master', color: '#b300e0' },
 ];
 
-// ── tokyonight 테마 ─────────────────────────────────────────────
-const T = {
-  bg: '#1a1b27', bar: '#16161e', border: '#292e42',
-  accent: '#7aa2f7', text: '#c0caf5', dim: '#565f89',
-  dot: ['#ff5f57', '#febc2e', '#28c840'],
-};
-const FONT = "'Segoe UI', Ubuntu, sans-serif";
-const MONO = "ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace";
-
 // ── SVG 생성 ────────────────────────────────────────────────────
 function generateSVG(user) {
   const tier = TIERS[user.tier] || TIERS[0];
@@ -76,17 +68,8 @@ function generateSVG(user) {
     @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
   </style>
 
-  <!-- Card -->
-  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="4.5" fill="${T.bg}" stroke="${T.border}" />
-
-  <!-- Title bar -->
-  <rect x="1" y="1" width="${W - 2}" height="34" rx="4" fill="${T.bar}" />
-  <rect x="1" y="27" width="${W - 2}" height="8" fill="${T.bar}" />
-  <circle cx="20" cy="18" r="5.5" fill="${T.dot[0]}" />
-  <circle cx="38" cy="18" r="5.5" fill="${T.dot[1]}" />
-  <circle cx="56" cy="18" r="5.5" fill="${T.dot[2]}" />
-  <text x="78" y="22" fill="${T.dim}" font-family="${MONO}" font-size="13">solved.ac</text>
-  <line x1="1" y1="35" x2="${W - 1}" y2="35" stroke="${T.border}" />
+  ${cardFrame(W, H)}
+  ${titleBar(W, `bak-libra26@solved.ac:~$ cat profile`)}
 
   <!-- Tier diamond -->
   <g style="animation: fadeIn 0.4s 0.1s ease forwards; opacity: 0">

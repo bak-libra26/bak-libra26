@@ -3,17 +3,17 @@
     @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
   </style>
 
-  <!-- Card -->
-  <rect x="0.5" y="0.5" width="849" height="462" rx="4.5" fill="#1a1b27" stroke="#292e42" />
-
+  <rect x="0.5" y="0.5" width="849" height="462" rx="4.5" fill="#0d1117" stroke="#30363d" />
+  
   <!-- Title bar -->
-  <rect x="1" y="1" width="848" height="34" rx="4" fill="#16161e" />
-  <rect x="1" y="27" width="848" height="8" fill="#16161e" />
-  <circle cx="20" cy="18" r="5.5" fill="#ff5f57" />
-  <circle cx="38" cy="18" r="5.5" fill="#febc2e" />
-  <circle cx="56" cy="18" r="5.5" fill="#28c840" />
-  <text x="78" y="22" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13">~/projects</text>
-  <line x1="1" y1="35" x2="849" y2="35" stroke="#292e42" />
+  <rect x="1" y="1" width="848" height="34" rx="4" fill="#161b22" />
+  <rect x="1" y="27" width="848" height="8" fill="#161b22" />
+  <text x="16" y="22" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13">bak-libra26@github:~$ ls ~/projects/</text>
+  <!-- Window controls ─ □ × -->
+  <text x="782" y="22" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14">─</text>
+  <text x="806" y="22" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14">□</text>
+  <text x="828" y="22" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14">×</text>
+  <line x1="1" y1="35" x2="849" y2="35" stroke="#30363d" />
 
   <!-- Projects -->
   
@@ -22,49 +22,49 @@
       
       <rect x="208.5" y="57" width="56" height="18" rx="9" fill="none" stroke="#28c840" stroke-width="1" />
       <text x="236.5" y="69" fill="#28c840" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10" text-anchor="middle">active</text>
-      <text x="30" y="92" fill="#565f89" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">터미널 스타일 기술 블로그 + 포트폴리오</text>
+      <text x="30" y="92" fill="#484f58" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">터미널 스타일 기술 블로그 + 포트폴리오</text>
       
-      <rect x="42" y="108" width="88" height="20" rx="3" fill="#292e42" />
-      <text x="86" y="122" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Next.js 16</text>
-      <rect x="135" y="108" width="73.6" height="20" rx="3" fill="#292e42" />
-      <text x="171.8" y="122" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">React 19</text>
-      <rect x="213.6" y="108" width="88" height="20" rx="3" fill="#292e42" />
-      <text x="257.6" y="122" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">TypeScript</text>
-      <rect x="306.6" y="108" width="95.2" height="20" rx="3" fill="#292e42" />
-      <text x="354.20000000000005" y="122" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Vanilla CSS</text>
-      <rect x="406.8" y="108" width="131.2" height="20" rx="3" fill="#292e42" />
-      <text x="472.4" y="122" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Cloudflare Pages</text>
+      <rect x="42" y="108" width="88" height="20" rx="3" fill="#30363d" />
+      <text x="86" y="122" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Next.js 16</text>
+      <rect x="135" y="108" width="73.6" height="20" rx="3" fill="#30363d" />
+      <text x="171.8" y="122" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">React 19</text>
+      <rect x="213.6" y="108" width="88" height="20" rx="3" fill="#30363d" />
+      <text x="257.6" y="122" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">TypeScript</text>
+      <rect x="306.6" y="108" width="95.2" height="20" rx="3" fill="#30363d" />
+      <text x="354.20000000000005" y="122" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Vanilla CSS</text>
+      <rect x="406.8" y="108" width="131.2" height="20" rx="3" fill="#30363d" />
+      <text x="472.4" y="122" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Cloudflare Pages</text>
       
-      <text x="50" y="148" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">▸</text>
-      <text x="66" y="148" fill="#c0caf5" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12.5">마크다운 기반 SSG로 613편 콘텐츠 + 9개 핸드북 시리즈 관리</text>
-      <text x="50" y="170" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">▸</text>
-      <text x="66" y="170" fill="#c0caf5" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12.5">Cloudflare Pages + OpenNext 조합으로 엣지 배포 최적화</text>
-      <text x="50" y="192" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">▸</text>
-      <text x="66" y="192" fill="#c0caf5" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12.5">CSS Variables 5개 테마 시스템 + 터미널 UI로 개발자 경험 극대화</text>
-    </g><line x1="30" y1="234" x2="820" y2="234" stroke="#292e42" stroke-dasharray="4,4" />
+      <text x="50" y="148" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">▸</text>
+      <text x="66" y="148" fill="#c9d1d9" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12.5">마크다운 기반 SSG로 613편 콘텐츠 + 9개 핸드북 시리즈 관리</text>
+      <text x="50" y="170" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">▸</text>
+      <text x="66" y="170" fill="#c9d1d9" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12.5">Cloudflare Pages + OpenNext 조합으로 엣지 배포 최적화</text>
+      <text x="50" y="192" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">▸</text>
+      <text x="66" y="192" fill="#c9d1d9" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12.5">CSS Variables 5개 테마 시스템 + 터미널 UI로 개발자 경험 극대화</text>
+    </g><line x1="30" y1="234" x2="820" y2="234" stroke="#30363d" stroke-dasharray="4,4" />
     <g style="animation: fadeIn 0.4s 0.4s ease forwards; opacity: 0">
       <text x="30" y="274" fill="#7aa2f7" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14" font-weight="bold">insights-korea</text>
       
-      <rect x="149" y="261" width="63" height="18" rx="9" fill="none" stroke="#565f89" stroke-width="1" />
-      <text x="180.5" y="273" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10" text-anchor="middle">private</text>
-      <text x="30" y="296" fill="#565f89" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">영문 한국 문화 매거진 + AI 콘텐츠 파이프라인</text>
+      <rect x="149" y="261" width="63" height="18" rx="9" fill="none" stroke="#484f58" stroke-width="1" />
+      <text x="180.5" y="273" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10" text-anchor="middle">private</text>
+      <text x="30" y="296" fill="#484f58" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">영문 한국 문화 매거진 + AI 콘텐츠 파이프라인</text>
       
-      <rect x="42" y="312" width="88" height="20" rx="3" fill="#292e42" />
-      <text x="86" y="326" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Next.js 16</text>
-      <rect x="135" y="312" width="73.6" height="20" rx="3" fill="#292e42" />
-      <text x="171.8" y="326" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">React 19</text>
-      <rect x="213.6" y="312" width="73.6" height="20" rx="3" fill="#292e42" />
-      <text x="250.39999999999998" y="326" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Supabase</text>
-      <rect x="292.2" y="312" width="80.8" height="20" rx="3" fill="#292e42" />
-      <text x="332.59999999999997" y="326" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">next-intl</text>
-      <rect x="378" y="312" width="116.8" height="20" rx="3" fill="#292e42" />
-      <text x="436.4" y="326" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">GitHub Actions</text>
+      <rect x="42" y="312" width="88" height="20" rx="3" fill="#30363d" />
+      <text x="86" y="326" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Next.js 16</text>
+      <rect x="135" y="312" width="73.6" height="20" rx="3" fill="#30363d" />
+      <text x="171.8" y="326" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">React 19</text>
+      <rect x="213.6" y="312" width="73.6" height="20" rx="3" fill="#30363d" />
+      <text x="250.39999999999998" y="326" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Supabase</text>
+      <rect x="292.2" y="312" width="80.8" height="20" rx="3" fill="#30363d" />
+      <text x="332.59999999999997" y="326" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">next-intl</text>
+      <rect x="378" y="312" width="116.8" height="20" rx="3" fill="#30363d" />
+      <text x="436.4" y="326" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">GitHub Actions</text>
       
-      <text x="50" y="352" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">▸</text>
-      <text x="66" y="352" fill="#c0caf5" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12.5">Admin 페이지에서 Grok API로 주요 토픽 수집 + 초안/번역 자동 생성</text>
-      <text x="50" y="374" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">▸</text>
-      <text x="66" y="374" fill="#c0caf5" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12.5">GitHub Actions로 발행/미발행 요청 처리 + Discord Bot 알림 연동</text>
-      <text x="50" y="396" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">▸</text>
-      <text x="66" y="396" fill="#c0caf5" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12.5">Supabase + next-intl 다국어(EN/KO/JA) 지원</text>
+      <text x="50" y="352" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">▸</text>
+      <text x="66" y="352" fill="#c9d1d9" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12.5">Admin 페이지에서 Grok API로 주요 토픽 수집 + 초안/번역 자동 생성</text>
+      <text x="50" y="374" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">▸</text>
+      <text x="66" y="374" fill="#c9d1d9" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12.5">GitHub Actions로 발행/미발행 요청 처리 + Discord Bot 알림 연동</text>
+      <text x="50" y="396" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">▸</text>
+      <text x="66" y="396" fill="#c9d1d9" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12.5">Supabase + next-intl 다국어(EN/KO/JA) 지원</text>
     </g>
 </svg>
