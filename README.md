@@ -14,7 +14,7 @@
 
 <img src="./assets/projects.svg" alt="Projects" width="100%" />
 
-[![Blog Demo](https://img.shields.io/badge/bak--libra26.github.io-Demo_↗-7aa2f7?style=flat-square)](https://bak-libra26.co.kr) [![InsightsKorea Demo](https://img.shields.io/badge/insights--korea-Demo_↗-7aa2f7?style=flat-square)](https://www.insights-korea.com)
+[`↗ bak-libra26.github.io`](https://bak-libra26.co.kr) &nbsp;&nbsp; [`↗ insights-korea`](https://www.insights-korea.com)
 
 <img src="./assets/solvedac-card.svg" alt="Solved.ac Profile" width="100%" />
 
