@@ -88,7 +88,7 @@ async function fetchStats() {
 
 // ── SVG 생성 ────────────────────────────────────────────────────
 function generateSVG(stats) {
-  const W = 495, H = 195;
+  const W = 850, H = 195;
   const hasContribs = stats.contributions !== null;
 
   // 왼쪽 영역: 기여 숫자 or 레포 숫자
@@ -115,8 +115,8 @@ function generateSVG(stats) {
     const delay = (200 + i * 100) / 1000;
     return `
     <g style="animation: fadeIn 0.4s ${delay}s ease forwards; opacity: 0">
-      <text x="270" y="${y}" fill="${T.dim}" font-family="${FONT}" font-size="13">${label}</text>
-      <text x="462" y="${y}" fill="${T.text}" font-family="${MONO}" font-size="14" text-anchor="end">${value}</text>
+      <text x="500" y="${y}" fill="${T.dim}" font-family="${FONT}" font-size="13">${label}</text>
+      <text x="815" y="${y}" fill="${T.text}" font-family="${MONO}" font-size="14" text-anchor="end">${value}</text>
     </g>`;
   }).join('');
 
@@ -145,7 +145,7 @@ function generateSVG(stats) {
   </g>
 
   <!-- Separator -->
-  <line x1="248" y1="48" x2="248" y2="${H - 15}" stroke="${T.border}" />
+  <line x1="470" y1="48" x2="470" y2="${H - 15}" stroke="${T.border}" />
 
   <!-- Stats -->
   ${statRows}
