@@ -1,0 +1,35 @@
+name: Update Profile Cards
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 매일 자정 UTC
+  workflow_dispatch: # 수동 실행
+  push:
+    paths:
+      - 'scripts/generate-*.mjs'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate solved.ac card
+        run: node scripts/generate-solvedac-card.mjs
+
+      - name: Generate GitHub card
+        run: node scripts/generate-github-card.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit updated cards
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update profile cards'
+          file_pattern: 'assets/*.svg'

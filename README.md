@@ -65,23 +65,14 @@ bak-libra26.github.io/  insights-korea/
 
 ---
 
-```bash
-$ solved.ac --user bak-libra26
-```
-
 <div align="center">
-  <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=bak-libra26" alt="Solved.ac Profile" />
+  <img src="./assets/solvedac-card.svg" alt="Solved.ac Profile" />
 </div>
 
 ---
 
-```bash
-$ git log --stat
-```
-
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bak-libra26&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bak-libra26&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="49%" />
+  <img src="./assets/github-card.svg" alt="GitHub Stats" />
 </div>
 
 ---
