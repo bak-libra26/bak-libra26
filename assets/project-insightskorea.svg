@@ -1,56 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="850" height="230" viewBox="0 0 850 230" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="272" viewBox="0 0 850 272" fill="none">
   <style>
     @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
   </style>
 
-  <!-- Card -->
-  <rect x="0.5" y="0.5" width="849" height="229" rx="4.5" fill="#1a1b27" stroke="#292e42" />
-
+  <rect x="0.5" y="0.5" width="849" height="271" rx="4.5" fill="#0d1117" stroke="#30363d" />
+  
   <!-- Title bar -->
-  <rect x="1" y="1" width="848" height="34" rx="4" fill="#16161e" />
-  <rect x="1" y="27" width="848" height="8" fill="#16161e" />
-  <circle cx="20" cy="18" r="5.5" fill="#ff5f57" />
-  <circle cx="38" cy="18" r="5.5" fill="#febc2e" />
-  <circle cx="56" cy="18" r="5.5" fill="#28c840" />
-  <text x="78" y="22" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13">insights-korea</text>
-  <line x1="1" y1="35" x2="849" y2="35" stroke="#292e42" />
+  <rect x="1" y="1" width="848" height="34" rx="4" fill="#161b22" />
+  <rect x="1" y="27" width="848" height="8" fill="#161b22" />
+  <text x="16" y="22" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13">bak-libra26@github:~$ cat insights-korea/README.md</text>
+  <!-- Window controls ─ □ × -->
+  <text x="782" y="22" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14">─</text>
+  <text x="806" y="22" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14">□</text>
+  <text x="828" y="22" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14">×</text>
+  <line x1="1" y1="35" x2="849" y2="35" stroke="#30363d" />
 
-  <!-- Description -->
-  <g style="animation: fadeIn 0.3s 0.05s ease forwards; opacity: 0">
-    <text x="30" y="60" fill="#7aa2f7" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="15" font-weight="bold">영문 한국 문화 매거진 + AI 콘텐츠 파이프라인</text>
-  </g>
-
-  <!-- Stack badges -->
-  <g style="animation: fadeIn 0.3s 0.1s ease forwards; opacity: 0">
+  <g style="animation: fadeIn 0.4s 0.1s ease forwards; opacity: 0">
+    <text x="30" y="70" fill="#7aa2f7" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14" font-weight="bold">insights-korea</text>
     
-    <rect x="30" y="78" width="88" height="22" rx="4" fill="#292e42" />
-    <text x="74" y="93" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Next.js 16</text>
-    <rect x="124" y="78" width="73.6" height="22" rx="4" fill="#292e42" />
-    <text x="160.8" y="93" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">React 19</text>
-    <rect x="203.6" y="78" width="73.6" height="22" rx="4" fill="#292e42" />
-    <text x="240.39999999999998" y="93" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Supabase</text>
-    <rect x="283.2" y="78" width="80.8" height="22" rx="4" fill="#292e42" />
-    <text x="323.59999999999997" y="93" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">next-intl</text>
-    <rect x="370" y="78" width="116.8" height="22" rx="4" fill="#292e42" />
-    <text x="428.4" y="93" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">GitHub Actions</text>
+    <rect x="163" y="57" width="50" height="18" rx="9" fill="none" stroke="#28c840" stroke-width="1" />
+    <text x="188" y="69" fill="#28c840" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10" text-anchor="middle">active</text>
+    <text x="30" y="92" fill="#484f58" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">영문 한국 문화 매거진 + AI 콘텐츠 파이프라인</text>
+    
+      <rect x="42" y="110" width="88" height="20" rx="3" fill="#30363d" />
+      <text x="86" y="124" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Next.js 16</text>
+      <rect x="135" y="110" width="73.6" height="20" rx="3" fill="#30363d" />
+      <text x="171.8" y="124" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">React 19</text>
+      <rect x="213.6" y="110" width="73.6" height="20" rx="3" fill="#30363d" />
+      <text x="250.39999999999998" y="124" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Supabase</text>
+      <rect x="292.2" y="110" width="80.8" height="20" rx="3" fill="#30363d" />
+      <text x="332.59999999999997" y="124" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">next-intl</text>
+      <rect x="378" y="110" width="116.8" height="20" rx="3" fill="#30363d" />
+      <text x="436.4" y="124" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">GitHub Actions</text>
+    
+      <text x="50" y="150" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">▸</text>
+      <text x="66" y="150" fill="#c9d1d9" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12.5">Admin 페이지에서 Grok API로 주요 토픽 수집 + 초안/번역 자동 생성</text>
+      <text x="50" y="172" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">▸</text>
+      <text x="66" y="172" fill="#c9d1d9" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12.5">GitHub Actions로 발행/미발행 요청 처리 + Discord Bot 알림 연동</text>
+      <text x="50" y="194" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">▸</text>
+      <text x="66" y="194" fill="#c9d1d9" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12.5">Supabase + next-intl 다국어(EN/KO/JA) 지원</text>
   </g>
 
-  <!-- Features -->
-  <g style="animation: fadeIn 0.4s 0.15s ease forwards; opacity: 0">
-      <text x="42" y="122" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13">▸</text>
-      <text x="60" y="122" fill="#c0caf5" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">Admin 페이지에서 Grok API로 주요 토픽 수집 + 초안/번역 자동 생성</text>
-    </g>
-  <g style="animation: fadeIn 0.4s 0.23s ease forwards; opacity: 0">
-      <text x="42" y="146" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13">▸</text>
-      <text x="60" y="146" fill="#c0caf5" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">GitHub Actions로 발행/미발행 요청 처리 + Discord Bot 알림 연동</text>
-    </g>
-  <g style="animation: fadeIn 0.4s 0.31s ease forwards; opacity: 0">
-      <text x="42" y="170" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13">▸</text>
-      <text x="60" y="170" fill="#c0caf5" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">Supabase + next-intl 다국어(EN/KO/JA) 지원</text>
-    </g>
-
-  <!-- Status -->
-  <g style="animation: fadeIn 0.3s 0.5s ease forwards; opacity: 0">
-    <text x="30" y="212" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">drwx------  [private]  2025 ~</text>
-  </g>
+  
+    <line x1="1" y1="232" x2="849" y2="232" stroke="#30363d" />
+    <rect x="1" y="232" width="848" height="39" rx="0" fill="#161b22" />
+    <rect x="1" y="267" width="848" height="4.5" rx="4" fill="#161b22" />
+    <text x="425" y="256" fill="#7aa2f7" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13" text-anchor="middle">Demo ↗  insights-korea.com</text>
 </svg>

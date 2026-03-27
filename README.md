@@ -12,9 +12,13 @@
 
 ---
 
-<img src="./assets/projects.svg" alt="Projects" width="100%" />
+<a href="https://bak-libra26.co.kr">
+  <img src="./assets/project-blog.svg" alt="bak-libra26.github.io" width="100%" />
+</a>
 
-[`↗ bak-libra26.github.io`](https://bak-libra26.co.kr) &nbsp;&nbsp; [`↗ insights-korea`](https://www.insights-korea.com)
+<a href="https://www.insights-korea.com">
+  <img src="./assets/project-insightskorea.svg" alt="insights-korea" width="100%" />
+</a>
 
 <img src="./assets/solvedac-card.svg" alt="Solved.ac Profile" width="100%" />
 

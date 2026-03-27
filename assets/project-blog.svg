@@ -1,56 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="850" height="230" viewBox="0 0 850 230" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="272" viewBox="0 0 850 272" fill="none">
   <style>
     @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
   </style>
 
-  <!-- Card -->
-  <rect x="0.5" y="0.5" width="849" height="229" rx="4.5" fill="#1a1b27" stroke="#292e42" />
-
+  <rect x="0.5" y="0.5" width="849" height="271" rx="4.5" fill="#0d1117" stroke="#30363d" />
+  
   <!-- Title bar -->
-  <rect x="1" y="1" width="848" height="34" rx="4" fill="#16161e" />
-  <rect x="1" y="27" width="848" height="8" fill="#16161e" />
-  <circle cx="20" cy="18" r="5.5" fill="#ff5f57" />
-  <circle cx="38" cy="18" r="5.5" fill="#febc2e" />
-  <circle cx="56" cy="18" r="5.5" fill="#28c840" />
-  <text x="78" y="22" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13">bak-libra26.github.io</text>
-  <line x1="1" y1="35" x2="849" y2="35" stroke="#292e42" />
+  <rect x="1" y="1" width="848" height="34" rx="4" fill="#161b22" />
+  <rect x="1" y="27" width="848" height="8" fill="#161b22" />
+  <text x="16" y="22" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13">bak-libra26@github:~$ cat bak-libra26.github.io/README.md</text>
+  <!-- Window controls ─ □ × -->
+  <text x="782" y="22" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14">─</text>
+  <text x="806" y="22" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14">□</text>
+  <text x="828" y="22" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14">×</text>
+  <line x1="1" y1="35" x2="849" y2="35" stroke="#30363d" />
 
-  <!-- Description -->
-  <g style="animation: fadeIn 0.3s 0.05s ease forwards; opacity: 0">
-    <text x="30" y="60" fill="#7aa2f7" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="15" font-weight="bold">터미널 스타일 기술 블로그 + 포트폴리오</text>
-  </g>
-
-  <!-- Stack badges -->
-  <g style="animation: fadeIn 0.3s 0.1s ease forwards; opacity: 0">
+  <g style="animation: fadeIn 0.4s 0.1s ease forwards; opacity: 0">
+    <text x="30" y="70" fill="#7aa2f7" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14" font-weight="bold">bak-libra26.github.io</text>
     
-    <rect x="30" y="78" width="88" height="22" rx="4" fill="#292e42" />
-    <text x="74" y="93" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Next.js 16</text>
-    <rect x="124" y="78" width="73.6" height="22" rx="4" fill="#292e42" />
-    <text x="160.8" y="93" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">React 19</text>
-    <rect x="203.6" y="78" width="88" height="22" rx="4" fill="#292e42" />
-    <text x="247.6" y="93" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">TypeScript</text>
-    <rect x="297.6" y="78" width="95.2" height="22" rx="4" fill="#292e42" />
-    <text x="345.20000000000005" y="93" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Vanilla CSS</text>
-    <rect x="398.8" y="78" width="131.2" height="22" rx="4" fill="#292e42" />
-    <text x="464.4" y="93" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Cloudflare Pages</text>
+    <rect x="222.5" y="57" width="50" height="18" rx="9" fill="none" stroke="#28c840" stroke-width="1" />
+    <text x="247.5" y="69" fill="#28c840" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10" text-anchor="middle">active</text>
+    <text x="30" y="92" fill="#484f58" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">터미널 스타일 기술 블로그 + 포트폴리오</text>
+    
+      <rect x="42" y="110" width="88" height="20" rx="3" fill="#30363d" />
+      <text x="86" y="124" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Next.js 16</text>
+      <rect x="135" y="110" width="73.6" height="20" rx="3" fill="#30363d" />
+      <text x="171.8" y="124" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">React 19</text>
+      <rect x="213.6" y="110" width="88" height="20" rx="3" fill="#30363d" />
+      <text x="257.6" y="124" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">TypeScript</text>
+      <rect x="306.6" y="110" width="95.2" height="20" rx="3" fill="#30363d" />
+      <text x="354.20000000000005" y="124" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Vanilla CSS</text>
+      <rect x="406.8" y="110" width="131.2" height="20" rx="3" fill="#30363d" />
+      <text x="472.4" y="124" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Cloudflare Pages</text>
+    
+      <text x="50" y="150" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">▸</text>
+      <text x="66" y="150" fill="#c9d1d9" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12.5">마크다운 기반 SSG로 613편 콘텐츠 + 9개 핸드북 시리즈 관리</text>
+      <text x="50" y="172" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">▸</text>
+      <text x="66" y="172" fill="#c9d1d9" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12.5">Cloudflare Pages + OpenNext 조합으로 엣지 배포 최적화</text>
+      <text x="50" y="194" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">▸</text>
+      <text x="66" y="194" fill="#c9d1d9" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12.5">CSS Variables 5개 테마 시스템 + 터미널 UI로 개발자 경험 극대화</text>
   </g>
 
-  <!-- Features -->
-  <g style="animation: fadeIn 0.4s 0.15s ease forwards; opacity: 0">
-      <text x="42" y="122" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13">▸</text>
-      <text x="60" y="122" fill="#c0caf5" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">마크다운 기반 SSG로 613편 콘텐츠 + 9개 핸드북 시리즈 관리</text>
-    </g>
-  <g style="animation: fadeIn 0.4s 0.23s ease forwards; opacity: 0">
-      <text x="42" y="146" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13">▸</text>
-      <text x="60" y="146" fill="#c0caf5" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">Cloudflare Pages + OpenNext 조합으로 엣지 배포 최적화</text>
-    </g>
-  <g style="animation: fadeIn 0.4s 0.31s ease forwards; opacity: 0">
-      <text x="42" y="170" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13">▸</text>
-      <text x="60" y="170" fill="#c0caf5" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">CSS Variables 5개 테마 시스템 + 터미널 UI로 개발자 경험 극대화</text>
-    </g>
-
-  <!-- Status -->
-  <g style="animation: fadeIn 0.3s 0.5s ease forwards; opacity: 0">
-    <text x="30" y="212" fill="#28c840" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">drwxr-xr-x  [active]  2025 ~</text>
-  </g>
+  
+    <line x1="1" y1="232" x2="849" y2="232" stroke="#30363d" />
+    <rect x="1" y="232" width="848" height="39" rx="0" fill="#161b22" />
+    <rect x="1" y="267" width="848" height="4.5" rx="4" fill="#161b22" />
+    <text x="425" y="256" fill="#7aa2f7" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13" text-anchor="middle">Demo ↗  bak-libra26.co.kr</text>
 </svg>

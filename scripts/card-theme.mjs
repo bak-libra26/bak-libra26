@@ -16,7 +16,7 @@ export function titleBar(W, title) {
   <!-- Title bar -->
   <rect x="1" y="1" width="${W - 2}" height="34" rx="4" fill="${T.bar}" />
   <rect x="1" y="27" width="${W - 2}" height="8" fill="${T.bar}" />
-  <text x="16" y="22" fill="${T.dim}" font-family="${MONO}" font-size="13">${title}</text>
+  <text x="16" y="22" fill="${T.text}" font-family="${MONO}" font-size="13">${title}</text>
   <!-- Window controls ─ □ × -->
   <text x="${W - 68}" y="22" fill="${T.dim}" font-family="${MONO}" font-size="14">─</text>
   <text x="${W - 44}" y="22" fill="${T.dim}" font-family="${MONO}" font-size="14">□</text>

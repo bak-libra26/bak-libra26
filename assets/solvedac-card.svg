@@ -8,7 +8,7 @@
   <!-- Title bar -->
   <rect x="1" y="1" width="848" height="34" rx="4" fill="#161b22" />
   <rect x="1" y="27" width="848" height="8" fill="#161b22" />
-  <text x="16" y="22" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13">bak-libra26@solved.ac:~$ cat profile</text>
+  <text x="16" y="22" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13">bak-libra26@solved.ac:~$ cat profile</text>
   <!-- Window controls ─ □ × -->
   <text x="782" y="22" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14">─</text>
   <text x="806" y="22" fill="#484f58" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14">□</text>
@@ -41,6 +41,6 @@
     </g>
     <g style="animation: fadeIn 0.4s 0.5s ease forwards; opacity: 0">
       <text x="500" y="162" fill="#484f58" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">Rank</text>
-      <text x="815" y="162" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14" text-anchor="end">#63,901</text>
+      <text x="815" y="162" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14" text-anchor="end">#63,902</text>
     </g>
 </svg>
