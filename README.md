@@ -70,7 +70,7 @@ $ solved.ac --user bak_libra26
 ```
 
 <div align="center">
-  <img src="./assets/solvedac-card.svg" alt="Solved.ac Profile" />
+  <img src="./assets/solvedac-card.svg" alt="Solved.ac Profile" width="100%" />
 </div>
 
 ---
@@ -80,7 +80,7 @@ $ git log --stat
 ```
 
 <div align="center">
-  <img src="./assets/github-card.svg" alt="GitHub Stats" />
+  <img src="./assets/github-card.svg" alt="GitHub Stats" width="100%" />
 </div>
 
 ---
