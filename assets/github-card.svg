@@ -17,7 +17,7 @@
 
   <!-- Big number -->
   <g style="animation: fadeIn 0.4s 0.1s ease forwards; opacity: 0">
-    <text x="38" y="88" fill="#7aa2f7" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="36" font-weight="bold">101</text>
+    <text x="38" y="88" fill="#7aa2f7" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="36" font-weight="bold">103</text>
     <text x="38" y="110" fill="#565f89" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">contributions</text>
     <text x="38" y="130" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">2024 — present</text>
   </g>
