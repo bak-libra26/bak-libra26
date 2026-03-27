@@ -85,7 +85,7 @@ function generateSVG(user) {
   <circle cx="20" cy="18" r="5.5" fill="${T.dot[0]}" />
   <circle cx="38" cy="18" r="5.5" fill="${T.dot[1]}" />
   <circle cx="56" cy="18" r="5.5" fill="${T.dot[2]}" />
-  <text x="78" y="22" fill="${T.dim}" font-family="${MONO}" font-size="13">$ solved.ac --user ${HANDLE}</text>
+  <text x="78" y="22" fill="${T.dim}" font-family="${MONO}" font-size="13">solved.ac</text>
   <line x1="1" y1="35" x2="${W - 1}" y2="35" stroke="${T.border}" />
 
   <!-- Tier diamond -->
