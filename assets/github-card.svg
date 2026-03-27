@@ -17,9 +17,9 @@
 
   <!-- Big number -->
   <g style="animation: fadeIn 0.4s 0.1s ease forwards; opacity: 0">
-    <text x="38" y="88" fill="#7aa2f7" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="36" font-weight="bold">13</text>
-    <text x="38" y="110" fill="#565f89" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">public repos</text>
-    <text x="38" y="130" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">since 2024</text>
+    <text x="38" y="88" fill="#7aa2f7" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="36" font-weight="bold">91</text>
+    <text x="38" y="110" fill="#565f89" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">contributions</text>
+    <text x="38" y="130" fill="#565f89" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12">2024 — present</text>
   </g>
 
   <!-- Separator -->
@@ -28,15 +28,19 @@
   <!-- Stats -->
   
     <g style="animation: fadeIn 0.4s 0.2s ease forwards; opacity: 0">
-      <text x="500" y="72" fill="#565f89" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">Stars</text>
-      <text x="815" y="72" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14" text-anchor="end">4</text>
+      <text x="500" y="72" fill="#565f89" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">Repos</text>
+      <text x="815" y="72" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14" text-anchor="end">13</text>
     </g>
     <g style="animation: fadeIn 0.4s 0.3s ease forwards; opacity: 0">
-      <text x="500" y="102" fill="#565f89" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">Followers</text>
-      <text x="815" y="102" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14" text-anchor="end">1</text>
+      <text x="500" y="102" fill="#565f89" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">Stars</text>
+      <text x="815" y="102" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14" text-anchor="end">4</text>
     </g>
     <g style="animation: fadeIn 0.4s 0.4s ease forwards; opacity: 0">
-      <text x="500" y="132" fill="#565f89" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">Since</text>
-      <text x="815" y="132" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14" text-anchor="end">2024</text>
+      <text x="500" y="132" fill="#565f89" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">Streak</text>
+      <text x="815" y="132" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14" text-anchor="end">2d</text>
+    </g>
+    <g style="animation: fadeIn 0.4s 0.5s ease forwards; opacity: 0">
+      <text x="500" y="162" fill="#565f89" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">Best</text>
+      <text x="815" y="162" fill="#c0caf5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14" text-anchor="end">2d</text>
     </g>
 </svg>
