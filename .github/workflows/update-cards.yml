@@ -2,11 +2,8 @@ name: Update Profile Cards
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 매일 자정 UTC
+    - cron: '0 0 * * *' # 매일 자정 UTC (solved.ac/github 데이터 갱신)
   workflow_dispatch: # 수동 실행
-  push:
-    paths:
-      - 'scripts/generate-*.mjs'
 
 jobs:
   update:
@@ -19,6 +16,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+
+      - name: Generate project cards
+        run: node scripts/generate-project-cards.mjs
 
       - name: Generate solved.ac card
         run: node scripts/generate-solvedac-card.mjs
