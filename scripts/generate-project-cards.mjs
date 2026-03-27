@@ -37,7 +37,7 @@ const PROJECTS = [
   },
 ];
 
-const OUTPUT = 'assets/projects-card.svg';
+const OUTPUT = 'assets/projects.svg';
 
 // ── 배지 너비 추정 ──────────────────────────────────────────────
 function measureBadge(text) {
