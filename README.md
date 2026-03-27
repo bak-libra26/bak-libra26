@@ -12,19 +12,7 @@
 
 ---
 
-```bash
-$ ls ~/projects/
-bak-libra26.github.io/  insights-korea/
-```
-
 <img src="./assets/projects.svg" alt="Projects" width="100%" />
-
----
-
-```bash
-$ solved.ac --user bak_libra26
-$ git log --stat
-```
 
 <img src="./assets/solvedac-card.svg" alt="Solved.ac Profile" width="100%" />
 
