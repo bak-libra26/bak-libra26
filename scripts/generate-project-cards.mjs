@@ -22,7 +22,7 @@ const PROJECTS = [
       'Cloudflare Pages + OpenNext 조합으로 엣지 배포 최적화',
       'CSS Variables 5개 테마 시스템 + 터미널 UI로 개발자 경험 극대화',
     ],
-    status: { text: 'drwxr-xr-x  [active]  2025 ~', color: T.green },
+    badge: { text: 'active', color: T.green },
   },
   {
     name: 'insights-korea',
@@ -33,7 +33,7 @@ const PROJECTS = [
       'GitHub Actions로 발행/미발행 요청 처리 + Discord Bot 알림 연동',
       'Supabase + next-intl 다국어(EN/KO/JA) 지원',
     ],
-    status: { text: 'drwx------  [private]  2025 ~', color: T.dim },
+    badge: { text: 'private', color: T.dim },
   },
 ];
 
@@ -47,18 +47,24 @@ function measureBadge(text) {
 
 // ── 하나의 프로젝트 블록 렌더링 (y 오프셋 기준) ─────────────────
 function renderProject(project, yBase, animDelay) {
-  // 프로젝트 이름
+  // 프로젝트 이름 + 배지
   const nameY = yBase + 20;
+  const nameWidth = project.name.length * 8.5 + 30; // 대략적 이름 텍스트 폭
+  const badgeW = project.badge.text.length * 7 + 14;
+  const badgeSvg = `
+      <rect x="${nameWidth}" y="${nameY - 13}" width="${badgeW}" height="18" rx="9" fill="none" stroke="${project.badge.color}" stroke-width="1" />
+      <text x="${nameWidth + badgeW / 2}" y="${nameY - 1}" fill="${project.badge.color}" font-family="${MONO}" font-size="10" text-anchor="middle">${project.badge.text}</text>`;
+
   // 설명
   const descY = yBase + 42;
-  // 배지
-  const badgeY = yBase + 58;
+  // Stack 배지
+  const stackY = yBase + 58;
   let bx = 42;
-  const badges = project.stack.map(tag => {
+  const stackBadges = project.stack.map(tag => {
     const w = measureBadge(tag);
     const svg = `
-      <rect x="${bx}" y="${badgeY}" width="${w}" height="20" rx="3" fill="${T.border}" />
-      <text x="${bx + w / 2}" y="${badgeY + 14}" fill="${T.text}" font-family="${MONO}" font-size="11" text-anchor="middle">${tag}</text>`;
+      <rect x="${bx}" y="${stackY}" width="${w}" height="20" rx="3" fill="${T.border}" />
+      <text x="${bx + w / 2}" y="${stackY + 14}" fill="${T.text}" font-family="${MONO}" font-size="11" text-anchor="middle">${tag}</text>`;
     bx += w + 5;
     return svg;
   }).join('');
@@ -73,19 +79,18 @@ function renderProject(project, yBase, animDelay) {
       <text x="66" y="${y}" fill="${T.text}" font-family="${FONT}" font-size="12.5">${f}</text>`;
   }).join('');
 
-  // Status
-  const statusY = featureY0 + project.features.length * featureGap + 10;
+  const endY = featureY0 + project.features.length * featureGap;
 
   const d = animDelay;
   return {
-    height: statusY - yBase + 10,
+    height: endY - yBase,
     svg: `
     <g style="animation: fadeIn 0.4s ${d}s ease forwards; opacity: 0">
       <text x="30" y="${nameY}" fill="${T.accent}" font-family="${MONO}" font-size="14" font-weight="bold">${project.name}</text>
+      ${badgeSvg}
       <text x="30" y="${descY}" fill="${T.dim}" font-family="${FONT}" font-size="13">${project.description}</text>
-      ${badges}
+      ${stackBadges}
       ${features}
-      <text x="30" y="${statusY}" fill="${project.status.color}" font-family="${MONO}" font-size="11">${project.status.text}</text>
     </g>`,
   };
 }
