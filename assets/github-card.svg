@@ -37,10 +37,10 @@
     </g>
     <g style="animation: fadeIn 0.4s 0.4s ease forwards; opacity: 0">
       <text x="500" y="132" fill="#484f58" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">Streak</text>
-      <text x="815" y="132" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14" text-anchor="end">201d</text>
+      <text x="815" y="132" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14" text-anchor="end">202d</text>
     </g>
     <g style="animation: fadeIn 0.4s 0.5s ease forwards; opacity: 0">
       <text x="500" y="162" fill="#484f58" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">Best</text>
-      <text x="815" y="162" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14" text-anchor="end">201d</text>
+      <text x="815" y="162" fill="#c9d1d9" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14" text-anchor="end">202d</text>
     </g>
 </svg>
